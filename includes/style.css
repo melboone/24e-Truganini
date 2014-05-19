@@ -1,0 +1,60 @@
+/* Fonts */
+@font-face {
+    font-family: '';
+    src: url('');
+    src: url('neutratext-bold-webfont.eot?#iefix') format('embedded-opentype'), url('neutratext-bold-webfont.woff') format('woff'), url('neutratext-bold-webfont.ttf') format('truetype'), url('neutratext-bold-webfont.svg#neutra_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CSS begin */
+
+body{
+	min-width: 1024px;
+	background-image: url('./images/bg.jpg');
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h2 {
+
+}
+
+p {
+	margin: 3px 0;
+}
+/* WRAPPERS & Dividers*/
+.wrapper{
+	width:1024px;
+	margin: auto;
+}
+
+.divider{
+	border-top: 2px solid #000;
+	width: 70px;
+	margin: auto;
+}
+
+/* SLIDER */
+
+/* BOTTOM AREA */
+.w-bottom{
+	background-color: #fff;
+}
+
+.bottom-left, .bottom-right{
+	width: 49%;
+	display: inline-block;
+}
+
+.bottom-right{
+	text-align: center;
+}
+
+.bottom-right img{
+	width: 100px;
+	padding-top: 20px;
+}
+/* FORM */
