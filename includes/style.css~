@@ -34,18 +34,6 @@
 
 }
 
-@font-face {
-    font-family: 'bebas_neuebold';
-    src: url('fonts/bebasneue_bold-webfont.eot');
-    src: url('fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bebasneue_bold-webfont.woff') format('woff'),
-         url('fonts/bebasneue_bold-webfont.ttf') format('truetype'),
-         url('fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* CSS begin */
 
 body{
@@ -54,8 +42,6 @@ body{
 	background-repeat: repeat;
 	font-family: 'liberation_sansregular';
 	text-transform: uppercase;
-    margin: 0;
-    padding:0;
 }
 
 h1, h2, h3 {
@@ -73,50 +59,31 @@ p {
 	margin: auto;
 }
 
-.bottom-left > .divider {
-    margin-bottom: 30px;
-}
 .divider{
-	border-top: 1px solid #000;
-	width: 80px;
-	margin: 20px auto;
+	border-top: 2px solid #000;
+	width: 70px;
+	margin: 10px auto;
 }
 
 /* SLIDER */
-.logo {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-    text-align: center;
-    min-width: 1024px;
-}
-.logo img{
-    width: 180px;
-}
+
 /* BOTTOM AREA */
 .large-2-3, .register-text{
+	font-family: 'liberation_sansbold';
 	text-align: center;
-    letter-spacing: 1px;
+	font-weight: bold;
+	
+	font-size: 15px;
 }
 
 .large-2-3{
-    font-size: 19px;
-    font-family: 'liberation_sansbold';
 }
 
 .register-text {
-    font-size: 32px;
-    font-family: 'bebas_neuebold';
 }
 
-.james {
-    font-family: 'liberation_sansbold';
-    letter-spacing: 1px;
-}
 .w-bottom{
 	background-color: #fff;
-    padding-top: 20px;
 }
 .bottom-left, .bottom-right{
 	display: inline-block;
@@ -124,7 +91,7 @@ p {
 }
 
 .bottom-left{
-	width: 65%;
+	width: 70%;
 }
 .bottom-right{
 	width: 29%;
@@ -132,7 +99,7 @@ p {
 }
 
 .bottom-right img{
-	width: 80px;
+	width: 100px;
 	padding-top: 20px;
 }
 
@@ -148,15 +115,14 @@ p {
 }
 
 .form-left ol, .form-right ol {
-	width: 290px;
+	width: 250px;
 }
 
 
 .form-right p{
-	font-size: 11px;
-    text-transform: initial;
+	font-size: 10px;
+    text-transform: lowercase;
     padding: 5px 0; 
-    color: #565656;
 }
 
 #field_4, #field_5 {
@@ -176,33 +142,25 @@ p {
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
     color:    #000;
-    font-family: 'liberation_sansregular';
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-family: 'liberation_sansregular'
 }
 input:-moz-placeholder, textarea:-moz-placeholder { 
     color:    #000;
-    font-family: 'liberation_sansregular';
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-family: 'liberation_sansregular'
 }
 input::-moz-placeholder, textarea::-moz-placeholder { 
     color:    #000;
-    font-family: 'liberation_sansregular';
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-family: 'liberation_sansregular'
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
     color:    #000;
-    font-family: 'liberation_sansregular';
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-family: 'liberation_sansregular'
 }
 
 ol.phpfmg_form{
     list-style-type:none;
     padding:0px;
-    margin:auto;
+    margin:0px;
 }
 
 ol.phpfmg_form input, ol.phpfmg_form textarea, ol.phpfmg_form select{
@@ -214,9 +172,7 @@ ol.phpfmg_form li{
     clear:both;
     display:block;
     overflow:hidden;
-	width: 100%;
-    padding:3px 0;
-    padding-top: 4px;
+	width: 100%
 }
 
 
@@ -253,7 +209,7 @@ ol.phpfmg_form li{
     background-color: #F4F6E5;
     border: 1px dashed #ff0000;
     padding: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form_error_highlight{
@@ -283,20 +239,15 @@ hr.sectionbreak{
 }
 
 #frmFormMailContainer input[type="submit"]{
-    padding: 3px 0; 
+    padding: 2px 3px; 
+    font-weight: bold;
     margin-bottom: 10px;
     background-color: #fff;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
     font-family: 'bebas_neueregular';
-    font-size: 20px;
-    letter-spacing: 1px;
 }
 
 #frmFormMailContainer input[type="submit"]:hover{
     cursor: pointer;
-}
-
-.frmFormMailContainer {
-    width: 100%;
 }
