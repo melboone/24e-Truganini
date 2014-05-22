@@ -86,10 +86,10 @@ p {
 .logo {
     width: 100%;
     position: absolute;
-    left: 0;
+    top: 0;
     z-index: 1;
     text-align: center;
-    min-width: 1024px;
+    min-width: 1300px;
 }
 .logo img{
     width: 180px;
@@ -116,7 +116,7 @@ p {
 }
 .w-bottom{
 	background-color: #fff;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .bottom-left, .bottom-right{
 	display: inline-block;
@@ -145,6 +145,7 @@ p {
 	width: 49%;
 	vertical-align: top;
 	display: inline-block;
+	padding-left: 4px;
 }
 
 .form-left ol, .form-right ol {
@@ -162,8 +163,7 @@ p {
 #field_4, #field_5 {
 	border-top: 1px solid #000;
 	background-color: #fff;
-	padding-top: 5px;
-	padding-bottom: 4px;
+	padding: 8px 0;
 	margin: 0;
 	font-family: 'liberation_sansregular'
 }
