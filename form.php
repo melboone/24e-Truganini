@@ -82,10 +82,10 @@ function phpfmg_form( $sErr = false ){
         <div id='field_5_tip' class='instruction'></div>
         </div>
     <p>*Mandatory fields</p>
-        <div class="submit-button">
+    </ol>
+            <div class="submit-button">
             <input type='submit' value='Submit' class='form_button'>
         </div>
-    </ol>
 </div>
 
             <div class='form_submit_block col_field'>

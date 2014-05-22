@@ -44,8 +44,8 @@
 				<p class="large-2-3">Large 2 & 3 Bedroom<br/>Apartments</p>
 				<div class="divider"></div>
 				<p class="james">James Cirelli</>
-				<p>0401 570 180</p>
-				<p style="text-transform: lowercase;">james@steller.com.au</p>
+				<p class="phone-number">0401 570 180</p>
+				<p>james@steller.com.au</p>
 				<img src="./includes/images/steller-logo.jpg" alt="Steller logo">
 			</div>
 		</div>
