@@ -2,7 +2,7 @@
 require_once( dirname(__FILE__).'/form.lib.php' );
 
 define( 'PHPFMG_USER', "email@julian.id.au" ); // must be a email address. for sending password to you.
-define( 'PHPFMG_PW', "9b220d" );
+define( 'PHPFMG_PW', "18toGqTr" );
 
 ?>
 <?php
@@ -134,13 +134,13 @@ function phpfmg_admin_panel()
     ?>
 </div>
 
-<div class="fmg_title">
+<div class="fmg_title" style="display:none">
     3. Form Generator
 </div>
-<div class="fmg_text">
+<div class="fmg_text" style="display:none">
     <a href="http://www.formmail-maker.com/generator.php" onclick="document.frmFormMail.submit(); return false;" title="<?php echo htmlspecialchars(PHPFMG_SUBJECT);?>">Edit Form</a> &nbsp;&nbsp;
     <a href="http://www.formmail-maker.com/generator.php" >New Form</a>
-</div>
+</div style="display:none">
     <form name="frmFormMail" action='http://www.formmail-maker.com/generator.php' method='post' enctype='multipart/form-data'>
     <input type="hidden" name="uuid" value="<?php echo PHPFMG_ID; ?>">
     <input type="hidden" name="external_ini" value="<?php echo function_exists('phpfmg_formini') ?  phpfmg_formini() : ""; ?>">
@@ -202,7 +202,7 @@ function phpfmg_admin_footer(){
 
 </div>
 
-<div style="color:#cccccc;text-decoration:none;padding:18px;font-weight:bold;">
+<div style="display:none;color:#cccccc;text-decoration:none;padding:18px;font-weight:bold;">
 	:: <a href="http://phpfmg.sourceforge.net" target="_blank" title="Free Mailform Maker: Create read-to-use Web Forms in a flash. Including validating form with CAPTCHA security image, send html email with attachments, send auto response email copy, log email traffics, save and download form data in Excel. " style="color:#cccccc;font-weight:bold;text-decoration:none;">PHP FormMail Generator</a> ::
 </div>
 

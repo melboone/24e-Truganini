@@ -5,14 +5,14 @@
 if( !defined('FormmailMakerFormLoader') ){
     # This block must be placed at the very top of page.
     # --------------------------------------------------
-	require_once( dirname(__FILE__).'/form.lib.php' );
+    require_once( dirname(__FILE__).'/form.lib.php' );
     phpfmg_display_form();
     # --------------------------------------------------
 };
 
 
 function phpfmg_form( $sErr = false ){
-		$style=" class='form_text' ";
+        $style=" class='form_text' ";
 
 ?>
 
@@ -89,11 +89,11 @@ function phpfmg_form( $sErr = false ){
 </div>
 
             <div class='form_submit_block col_field'>
-	
+    
 
-				<div id='err_required' class="form_error" style='display:none;'>
-				    <label class='form_error_title'>Please check the required fields</label>
-				</div>
+                <div id='err_required' class="form_error" style='display:none;'>
+                    <label class='form_error_title'>Please check the required fields</label>
+                </div>
 
                 <span id='phpfmg_processing' style='display:none;'>
                     <img id='phpfmg_processing_gif' src='<?php echo PHPFMG_ADMIN_URL . '?mod=image&amp;func=processing' ;?>' border=0 alt='Processing...'> <label id='phpfmg_processing_dots'></label>
@@ -110,15 +110,12 @@ function phpfmg_form( $sErr = false ){
 
 <!-- [Your confirmation message goes here] -->
 <div id='thank_you_msg' style='display:none;'>
-Your form has been sent.
-
-We will contact you soon.
-
- Thank you!
+<p>Your form has been sent. We will contact you soon.</p>
+<p>Thank you!</p>
 </div>
 
 <?php
-			
+            
     phpfmg_javascript($sErr);
 
 } 

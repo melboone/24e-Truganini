@@ -100,7 +100,7 @@ p {
 }
 
 .large-2-3{
-    font-size: 19px;
+    font-size: 21px;
     font-family: 'liberation_sansbold';
 }
 
@@ -117,6 +117,7 @@ p {
 .w-bottom{
 	background-color: #fff;
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 .bottom-left, .bottom-right{
 	display: inline-block;
@@ -133,7 +134,7 @@ p {
 
 .bottom-right img{
 	width: 80px;
-	padding-top: 20px;
+	padding-top: 24px;
 }
 
 .phone-number{
@@ -151,7 +152,7 @@ p {
 	width:80%;
 }
 .form-left, .form-right{
-	width: 49%;
+	width: 330px;
 	vertical-align: top;
 	display: inline-block;
 	padding-left: 4px;
@@ -206,6 +207,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-family: 'liberation_sansregular';
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+select {
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance: none; /* Firefox */
+    -ms-appearance: none; /* Internet Explorer */
+    -o-appearance: none; /* Opera */
+    background:url('./images/arrow-down.png') center right no-repeat;
 }
 
 ol.phpfmg_form{
@@ -290,11 +299,11 @@ hr.sectionbreak{
 .submit-button{
     text-align: right;
     padding-right: 8px;
+    padding-top: 3px;
 }
 
 #frmFormMailContainer input[type="submit"]{
     padding: 3px 0; 
-    margin-bottom: 10px;
     background-color: #fff;
     font-family: 'bebas_neueregular';
     font-size: 20px;
@@ -313,4 +322,12 @@ hr.sectionbreak{
 
 .frmFormMailContainer {
     width: 100%;
+}
+
+#thank_you_msg{
+    text-align: center;
+}
+
+#thank_you_msg p{
+    padding: 10px; 0
 }

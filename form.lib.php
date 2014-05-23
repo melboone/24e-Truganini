@@ -95,12 +95,9 @@ function phpfmg_thankyou(){
 <!-- [Your confirmation message goes here] -->
 	<br>
 
-    <b>Your form has been sent.
-
-We will contact you soon.
-
- Thank you!</b>
-    <br><br>
+    <b><p>The form has been sent.</p>
+<p>We will contact you soon.</p>
+<p>Thank you!</p></b>
 
 <?php
 
@@ -394,7 +391,7 @@ function    sendFormMail( $form_mail, $sFileName = ""  )
     $subject = phpfmg_parse_mail_body( $subject, $fields );
     
     if( $isHtml ) {
-        $content = phpfmg_getHtmlContent( $content );
+        $content = $content ;
     };
 
     $oldMask = umask(0);
@@ -1246,7 +1243,7 @@ function phpfmg_dropdown( $name, $options, $showInputbox = false, $isMultiple = 
             if( $isPost && $i == $len - 1 && $selected == 'selected' ){
                 $displayLast = '' ;
             };
-            $dropdown[] = "<span value=\"\"{$o['value']}\" {$selected}>{$o['text']}</span>";
+            $dropdown[] = "<a value=\"\"{$o['value']}\" {$selected}>{$o['text']}</a>";
             $i ++ ;
         };
     };
