@@ -73,12 +73,12 @@ function phpfmg_form( $sErr = false ){
 <div class="form-right">
     <ol class='phpfmg_form' >
         <div class='col_field'>
-        <?php phpfmg_dropdown( 'field_4', "<option disabled selected>PRICE POINT</option>|<option>$499,000 - $599,000</option>|<option>$600,000 - $709,000</option>|<option>$710,000 +</option>" );?>
+        <?php phpfmg_dropdown( 'field_4', "<option disabled selected>PRICE POINT</option>|<option>$499,000 - $599,000</option>|<option>$600,000 - $699,000</option>|<option>$700,000 +</option>" );?>
         <div id='field_4_tip' class='instruction'></div>
         </div>
 
         <div class='col_field'>
-        <?php phpfmg_dropdown( 'field_5', "<option disabled selected>HOW DID YOU HEAR ABOUT US?</option>|<option>DIRECT MAIL</option>|<option>EMAIL NOTICE</option>|<option>ONLINE</option>|<option>REFERRAL</option>|<option>SIGAGE</option>|<option>OTHER</option>", false );?>
+        <?php phpfmg_dropdown( 'field_5', "<option disabled selected>HOW DID YOU HEAR ABOUT US?</option>|<option>DIRECT MAIL</option>|<option>EMAIL NOTICE</option>|<option>ONLINE</option>|<option>REFERRAL</option>|<option>SIGNAGE</option>|<option>OTHER</option>", false );?>
         <div id='field_5_tip' class='instruction'></div>
         </div>
     <p>*Mandatory fields</p>
